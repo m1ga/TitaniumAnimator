@@ -1,6 +1,6 @@
-version: 1.2.1
+version: 2.0.0
 apiversion: 2
-architectures: armv7 arm64 i386 x86_64
+architectures: arm64 x86_64
 description: A drop-in animation replacement for Titanium
 author: Seth Benjamin
 license: GPLv3
@@ -10,4 +10,5 @@ name: TitaniumAnimator
 moduleid: com.animecyc.animator
 guid: 9121C973-0D25-468F-B2CD-5E93DA983AC8
 platform: iphone
-minsdk: 3.5.1.GA
+minsdk: 11.1.1.GA
+mac: false

@@ -144,7 +144,7 @@
                               [sibling.view removeEasingFunctionForKeyPath:@"frame"];
                           }
                       }];
-
+/*
                      if ([parentToAnimate isKindOfClass:[TiUIScrollViewProxy class]])
                      {
                          TiUIScrollViewProxy *scrollViewProxy = (TiUIScrollViewProxy *)parentToAnimate;
@@ -152,6 +152,7 @@
 
                          [[scrollView wrapperView] removeEasingFunctionForKeyPath:@"frame"];
                      }
+ */
                  }
 
                  [proxy.view removeEasingFunctionForKeyPath:@"frame"];
@@ -279,7 +280,7 @@
                                  [sibling.view setEasingFunction:easingFunc forKeyPath:@"frame"];
                              }
                          }];
-
+/*
                         if ([parentToAnimate isKindOfClass:[TiUIScrollViewProxy class]])
                         {
                             TiUIScrollViewProxy *scrollViewProxy = (TiUIScrollViewProxy *)parentToAnimate;
@@ -292,7 +293,7 @@
                         else if (parentToAnimate != nil)
                         {
                             [parentToAnimate layoutChildren:NO];
-                        }
+                        }*/
                     }
                     else
                     {
