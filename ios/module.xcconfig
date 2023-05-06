@@ -1,1 +1,1 @@
-// OTHER_LDFLAGS=$(inherited) -framework Foundation -framework QuartzCore
+OTHER_LDFLAGS=$(inherited) -framework Foundation -framework QuartzCore
